@@ -1,0 +1,25 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+persist.tcs.config_name=XMM6360_CONF_FLASHLESS
+persist.system.at-proxy.mode=0
+persist.ril-daemon.disable=0
+persist.radio.ril_modem_state=1
+persist.dual_sim=0
+persist.dynamic-data-sim=reboot
+ro.bluetooth.le=2
+bt.version.driver=V18.23.38.1.0
+ro.sf.lcd_density=240
+panel.physicalWidthmm=52
+panel.physicalHeightmm=86
+ro.opengles.version=131072
+gsm.net.interface=rmnet0
+gps.version.driver=6.19.6.198372
+persist.gps.ignore_rom_alm=0
+ril.agpschannel=/dev/gsmtty7
+persist.gps.testmode=disabled
+ro.adb.secure=0
+ro.secure=0
+ro.debugabble=1
+persist.sys.usb.config=mtp,adb,adb
+ro.allow.mock.location=0
